@@ -1,0 +1,21 @@
+from tkinter import*
+#BOTTOM низ
+window = Tk()
+frame_top = Frame(window)
+frame_bottom = Frame(window)
+frame_top.pack()
+frame_bottom.pack()
+
+metka1 = Label(frame_top, text="Метка 1",bg = 'red')
+metka1.pack(side=LEFT)
+metka2 = Label(frame_top, text="Метка 2",bg = 'yellow')
+metka2.pack(side=LEFT)
+metka3 = Label(frame_top, text="Метка 3",bg = 'green')
+metka3.pack(side=LEFT)
+metka4 = Label(frame_bottom, text="Метка 4",bg = 'blue')
+metka4.pack(side=LEFT)
+metka5 = Label(frame_bottom, text="Метка 5",bg = 'blue')
+metka5.pack(side=LEFT)
+metka6 = Label(frame_bottom, text="Метка 6",bg = 'blue')
+metka6.pack(side=LEFT)
+window.mainloop()
