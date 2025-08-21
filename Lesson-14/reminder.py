@@ -1,7 +1,7 @@
 from tkinter import*
 from tkinter import messagebox as mb
 from tkinter import simpledialog as sd
-from datetime
+import datetime
 import time
 import pygame
 
